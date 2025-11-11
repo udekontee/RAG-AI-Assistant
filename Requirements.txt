@@ -1,0 +1,6 @@
+transformers
+faiss-cpu
+gradio
+sentence-transformers
+kagglehub
+torch
