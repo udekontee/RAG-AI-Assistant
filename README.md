@@ -1,6 +1,11 @@
 # RAG-AI-Assistant
 
 # 🤖 The RAG-AI-Assistant
+<img width="818" height="284" alt="image" src="https://github.com/user-attachments/assets/79ce3c41-d55a-4dd3-aef6-235975320f4d" />
+
+**A preview of The RAG-AI-Assistant interface built with Gradio.**
+
+---
 
 **An intelligent Retrieval-Augmented Generation (RAG) assistant powered by FAISS, FLAN-T5, and Gradio.**  
 This AI assistant retrieves accurate information from a local knowledge base and generates context-aware responses using advanced NLP models.
@@ -49,13 +54,18 @@ jupyter notebook The_RAG_AI_Assistant.ipynb
 
 ## 💻 How It Works
 Download the Dataset
-
 import kagglehub
 path = kagglehub.dataset_download("frankossai/natural-questions-dataset")
 
 ## 🧠 Example Usage
+Inside Jupyter **demo.launch(debug=True)**
+- Who discovered penicillin? **Alexander Fleming**
+- When did Apollo 11 land on the moon? **1969**
+- Who is the president of Nigeria? **Bola Ahmed Tinubu**
+  
+---
 
-### Inside Jupyter
-demo.launch(debug=True)
-     
+## 🏁 Conclusion
 
+The RAG-AI-Assistant demonstrates how retrieval-augmented generation can be applied for question-answering tasks using open-source models and simple infrastructure.
+It’s a great foundation for extending toward larger document retrieval, custom knowledge bases, or API-connected assistants.
