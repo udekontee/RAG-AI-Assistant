@@ -71,3 +71,4 @@ The RAG-AI-Assistant demonstrates how retrieval-augmented generation can be appl
 It’s a great foundation for extending toward larger document retrieval, custom knowledge bases, or API-connected assistants.
 
 
+
